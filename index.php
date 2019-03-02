@@ -2,7 +2,7 @@
 <html>
 <head>
 <?php
-<h1>Prodevans Technology</h1>
-?php>
+echo "Prodevans Technology"
+?>
 </head>
 </html>

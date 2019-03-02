@@ -1,5 +1,5 @@
-FROM FROM php:7.2-apache
+FROM php:7.2-apache
 
 MAINTAINER Ajay E "ajay.prodevans@gmail.com"
 
-ADD Prodev.php /var/www/html/
+ADD index.php /var/www/html/

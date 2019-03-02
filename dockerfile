@@ -1,7 +1,5 @@
-FROM ubuntu:latest
+FROM FROM php:7.2-apache
+
 MAINTAINER Ajay E "ajay.prodevans@gmail.com"
-RUN apt-get update
 
-ADD Prodev.php /root/Container/Prodev.php	
-
-WORKDIR /root
+ADD Prodev.php /var/www/html/
